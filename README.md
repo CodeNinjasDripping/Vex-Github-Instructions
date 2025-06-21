@@ -1,58 +1,145 @@
-# Vex-Github-Instructions
+# VEX GitHub Instructions
 
-# Saving a VexIQ project to github section
-  - If the repo already exists and you cloned it, then to push the updated version to github.com, you can start off on step 7. 
+This guide walks you through how to **save a VEX IQ project to GitHub** and how to **retrieve it from GitHub** later on. It's designed to be used by students and instructors alike, and assumes you are using **GitHub Desktop** and **VEXcode IQ**.
 
-1. ![](1.png)
-  - Open up github desktop (make sure you're signed into dripping springs account) and click on file -> new repository
+---
 
-2. ![](2.png)
-  - This creates a local repository to the specific computer, not to github remotely
-  - Name the repository the name of the student and then "-cs2n", like "studentName-cs2n" or "LoganFalkenberg-cs2n".
-  - Create a local directory that will later be used to save their VexIQ code file in
-  - Then click create repository
+## 📚 Table of Contents
 
-3. ![](3.png)
-  - Click the button in the top that says "Public Repository"
+- [Part 1: Saving a VEX IQ Project to GitHub](#part-1-saving-a-vex-iq-project-to-github)
+  - [Step 1: Create a New Repository](#step-1-create-a-new-repository)
+  - [Step 2: Configure Local Repository](#step-2-configure-local-repository)
+  - [Step 3: Set to Public Repository](#step-3-set-to-public-repository)
+  - [Step 4: Publish to GitHub](#step-4-publish-to-github)
+  - [Step 5: Save VEX IQ Code to Repository](#step-5-save-vex-iq-code-to-repository)
+  - [Step 6: Commit Your Changes](#step-6-commit-your-changes)
+  - [Step 7: Push to GitHub](#step-7-push-to-github)
+  - [Step 8: Verify Upload](#step-8-verify-upload)
+- [Part 2: Cloning and Opening a GitHub Project](#part-2-cloning-and-opening-a-github-project)
+  - [Step 1: Clone the Repository](#step-1-clone-the-repository)
+  - [Step 2: Choose Local Directory](#step-2-choose-local-directory)
+  - [Step 3: Open the File in VEXcode IQ](#step-3-open-the-file-in-vexcode-iq)
+  - [Step 4: You're Done!](#step-4-youre-done)
 
-4. ![](4.png)
-  - Now we need to publish the repo to github remotely so we can access it from anywhere.
-  - Name the remote repo the same as you named the local "studentName-cs2n"
-  - Leave the description blank, keep the code private, and hit publish.
+---
 
-5. ![](5.png)
-  - Open up the code file you want to save in VexIQ, and click "Save As"
+## Part 1: Saving a VEX IQ Project to GitHub
 
-6. ![](5.1.png)
-  - Navigate to the local repository directory path you just created in github desktop. You'll know you're in the right place when the name of the directory matches what you put and you see a `.git` file in the repo. Name the code file "studentName-projectName". Click Save.
+> **Note:** If the GitHub repo already exists and you’ve cloned it, you can skip to [Step 6](#step-6-commit-your-changes).
 
-7. ![](6.png)
-  - Go back to github desktop and you should see a new file in the software. Make the commit message the last step the student was working on, and then click "commit to main".
+### Step 1: Create a New Repository
+![](1.png)  
+Open **GitHub Desktop**, ensure you're signed in to the **Dripping Springs** account.  
+Go to `File → New Repository`.
 
-8. ![](7.png)
-  - After it commits, then click the "push origin" button at the top to push the local code file to the remote repo.
+---
 
-9. ![](8.png)
-  - To verify that this was done correctly, you can navigate to github.com and check the latest repo that was edited. Click on the repo and you should see the code file in the repo that you just saved from your local machine.
-  - You are now done.
+### Step 2: Configure Local Repository
+![](2.png)  
+- This creates a **local repo only** (not yet online).
+- Name it: `StudentName-cs2n` (e.g., `LoganFalkenberg-cs2n`).
+- Choose a **local directory** to save their VEX IQ project.
+- Click **Create Repository**.
 
---- 
+---
 
-# Grabbing the file from github
+### Step 3: Set to Public Repository  
+![](3.png)  
+At the top, click the **"Public Repository"** toggle.
 
-1. ![](11.png)
-  - Open up github desktop and click file -> clone repository
+---
 
-2. ![](12.png)
-  - Type in the students name in the search bar, and you should see the desired repo pop up under it, choose a local directory to store it to (or create one) and click clone.
-  - In the example image, I created my own and named it the same as the repo I was cloning to follow the naming convention
+### Step 4: Publish to GitHub  
+![](4.png)  
+- Click **"Publish repository"**.  
+- Keep the name the same: `StudentName-cs2n`.
+- Leave the description blank.
+- Keep it **private**.
+- Click **Publish**.
 
-3. ![](13.png)
-  - Open up VexIQ and click file -> open
+---
 
-4. ![](14.png)
-  - Navigate to the local directory you just cloned the code file to, and clikc on the file and click open.
+### Step 5: Save VEX IQ Code to Repository  
+![](5.png)  
+Open the VEX IQ project, then go to `File → Save As`.
 
-5. ![](15.png)
-  - The code should now be able to be worked on, on your local machine. You are done. 
-![](file-new-repo.png)
+![](5.1.png)  
+- Navigate to the **local repo directory** (you should see a `.git` file there).
+- Save the file as `StudentName-ProjectName` (e.g., `LoganFalkenberg-ObstacleAvoidance.iqcpp`).
+- Click **Save**.
+
+---
+
+### Step 6: Commit Your Changes  
+![](6.png)  
+- In **GitHub Desktop**, you’ll see the new file listed.
+- Write a commit message (e.g., "Completed autonomous code").
+- Click **"Commit to main"**.
+
+---
+
+### Step 7: Push to GitHub  
+![](7.png)  
+Click **"Push origin"** to upload the commit to GitHub.
+
+---
+
+### Step 8: Verify Upload  
+![](8.png)  
+Go to [github.com](https://github.com) → navigate to the repo you just edited.  
+You should see the new `.iqcpp` file in the list.
+
+✅ You're done!
+
+---
+
+## Part 2: Cloning and Opening a GitHub Project
+
+### Step 1: Clone the Repository  
+![](11.png)  
+Open GitHub Desktop → `File → Clone repository`.
+
+---
+
+### Step 2: Choose Local Directory  
+![](12.png)  
+- Search for the student’s repo (e.g., `LoganFalkenberg-cs2n`).
+- Select it and choose or create a **local directory**.
+- Click **Clone**.
+
+---
+
+### Step 3: Open the File in VEXcode IQ  
+![](13.png)  
+In VEXcode IQ, go to `File → Open`.
+
+![](14.png)  
+- Navigate to the local repo directory you just cloned.
+- Select the `.iqcpp` project file.
+- Click **Open**.
+
+---
+
+### Step 4: You're Done!  
+![](15.png)  
+The file is now open and ready to be edited locally in VEXcode IQ.  
+✅ That’s it!
+
+---
+
+## 📌 Reference Image Index
+
+| Step | Image | Description |
+|------|-------|-------------|
+| Step 1 | `1.png` | New repo in GitHub Desktop |
+| Step 2 | `2.png` | Configure local repo |
+| Step 3 | `3.png` | Make repo public |
+| Step 4 | `4.png` | Publish repo to GitHub |
+| Step 5 | `5.png`, `5.1.png` | Save VEX project to local repo |
+| Step 6 | `6.png` | Commit changes |
+| Step 7 | `7.png` | Push to GitHub |
+| Step 8 | `8.png` | Verify on GitHub.com |
+| Clone Steps | `11.png`, `12.png`, `13.png`, `14.png`, `15.png` | Cloning and opening files |
+
+---
+
